@@ -80,7 +80,12 @@ html{
 }
 
 .intro-section p{
-    font-size: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.intro-section p span{
+    color: #ff004f;
 }
 
 .intro-section h1{
@@ -143,9 +148,9 @@ html{
 }
 
 
-
 .tab-contents{
     margin-top: 40px;
+    
 }
 .tab-contents span{
     font-size: 15px;
@@ -165,7 +170,10 @@ html{
 .tab-contents.active-tab{
     display: block;
 }
-
+.edu{
+    display: flex;
+    gap: 120px;
+}
 
 
 /* service-section  */
@@ -563,6 +571,7 @@ form .btn3:hover{
         padding-left: 20px;
         font-size: 14px;
       }
+     
 }
 
 #msg{
